@@ -1,5 +1,4 @@
-// components/Graph.js
-import React from "react";
+
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
 export default function Graph({ tasks }) {

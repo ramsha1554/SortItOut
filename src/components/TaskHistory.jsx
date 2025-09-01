@@ -1,5 +1,3 @@
-// components/TaskHistory.js
-import React from "react";
 
 const groupByDate = (tasks) => {
   return tasks.reduce((acc, task) => {

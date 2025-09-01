@@ -23,7 +23,6 @@ export default function DailyTasks({ tasks, addTask, markDone }) {
     <div className="mb-8">
       <h2 className="text-2xl font-semibold mb-4">Today's Tasks</h2>
 
-      {/* Add Task */}
       <div className="flex gap-2 mb-4">
         <input
           type="text"
@@ -40,7 +39,7 @@ export default function DailyTasks({ tasks, addTask, markDone }) {
         </button>
       </div>
 
-      {/* Task List */}
+ 
       <div className="space-y-3">
         {tasks.map((t) => (
           <div

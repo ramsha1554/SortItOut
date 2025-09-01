@@ -1,4 +1,4 @@
-// App.js
+
 import React, { useState } from "react";
 import DailyTasks from "./components/DailyTasks";
 import ScheduledTasks from "./components/ScheduledTasks";
